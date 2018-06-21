@@ -2,10 +2,96 @@
     padding : 0;
     margin : 0;
 }
-.head {
- font-family:sans-serif;
- font-weight: 0.6em;
- }
- p {
-   color: light-blue;
- }
+/*This styles name*/
+.header {
+						font-family: monto, sans-serif;
+   					 margin: 2% 4% 2% 22%;
+   					 text-align: right;
+					  width: 80%;
+         
+}
+.udaLogo {
+	         width: 20%;
+          margin-bottom: 2%;
+          margin-top: 2%;
+          margin-left: 2%;
+}
+.udaLogo img {
+				    width: 50px;
+				    border: none; /*border set to none because all image is designed*/
+			}	
+
+	#featured {
+		  margin: 5% 2% 4% 2%;
+		  text-align: left;
+		}
+		#featuredWorkText {
+			color: #777777;
+			margin-bottom: 4%;
+		}
+		
+		h3 {
+		 text-align: center;
+		 margin: 1% 2%;
+		}
+		
+		img {
+			      width: 300px;
+			      border: black solid 1px;
+			}
+			#mainImage img {
+     width: 100%;
+     margin-left: 2%;
+     margin-right: 2%;
+}
+			/* For Mobile View*/
+			@media screen and (max-width: 565px) {
+			.container {
+				    width: 100%;
+				    margin-left: 6%;
+				}
+				#featuredWorkText {
+				  margin-left: 6%;
+				}
+/*Thess mostly aligns hyperlinks*/
+       .projectPixel {
+					 margin-top: 8%;
+					}
+			  	.projectAnimal {
+					    margin-top: 8%;
+					}
+					.projectJeevan {
+					    margin-top: 8%;
+					}
+	}
+				/* For Desktop view */
+				@media screen and (min-width: 765px){
+					h2 {
+						font-size: 1.7em;
+					}
+					.header {
+							font-size: 2.5em;
+					}
+					#featured {
+						font-size: 1.5em;
+					}
+					.projectName {
+						margin-top: 1em;
+						margin-bottom: 1em;
+					}
+					.container  {
+						width: 100%;
+						display: flex;
+				   flex-wrap: wrap;
+			
+					}
+					.projectPixel {
+					 width: 33%;
+					}
+			  	.projectAnimal {
+					    width: 34%;
+					}
+					.projectJeevan {
+					    width: 33%;
+					}
+					}
