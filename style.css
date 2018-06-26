@@ -2,23 +2,36 @@
     padding: 0;
     margin: 0;
 }
+body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*This styles name*/
+header{
+  height: 20vh;
+}
 .head {
-    font-family: monto, sans-serif;
+     font-family: cursive,monto, sans-serif;
    	 margin: 2% 4% 2% 22%;
    	 text-align: right;
-    width: 80%;      
+     width: 80%;
 }
-.udaLogo {
-	   width: 20%;
+/* img:hover{
+   transform: scale(1.2);
+   transition: all .4s ease-in-out;
+} */
+#header>img{
+	  width: 20%;
     margin-bottom: 2%;
     margin-top: 2%;
     margin-left: 2%;
+    border: none;
+    float: left;
 }
-.udaLogo img {
-		 width: 50px;
-    border: none; /*border set to none because all image is designed*/
-}	
+.blue{
+  color: #027BFF;
+}
 #featured {
     margin: 5% 2% 4% 2%;
 		 text-align: left;
@@ -72,6 +85,14 @@ h2 {
 }
 #footer p {
     font-size: 1.2em;
+    padding: 10px;
+    margin: 0;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    text-align: center;
+    }
+#footer{
+  margin: 19px;
 }
 .projects  {
 		 width: 100%;
@@ -83,4 +104,6 @@ h2 {
 }
 .projectAnimal {
 			width: 34%;
-}}
+}
+
+}
