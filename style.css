@@ -27,7 +27,7 @@ removed
     margin: 0 auto;
     margin: 5% 2% 4% 2%;
     text-align: centre;
-}
+}*/
 /*main featured work text*/
 #featuredWorkText {
     color: #777777;
@@ -59,7 +59,6 @@ img {
     width: 300px;
     margin: 0 auto;
     text-align: centre;
-    border: 1px solid blue;
 }
 .projects {
     width: 400px;
