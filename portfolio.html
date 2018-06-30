@@ -5,40 +5,45 @@
 <title>Chetan Kumar's Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--MAIN CSS FILE-->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="main.css">
+<!--BOOTSTRAP-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 </head>
-<body>
-<header id="header">
+<body class="container">
+<header class="">
 <img src="360//udaLogo.jpeg" alt="Udacity Logo">
+<div class="intro">
 <h1 class="head">Chetan kumar</h1>
 <p class="head blue">Front End Magician</p>
+</div>
 </header>
-<section id="main">
+<section id="main"">
 <div id="mainImage">
-<img src="360/mainImage.jpeg" alt="main Image">
+<img src="360/mainImage.jpeg" class="img-fluid" alt="main Image">
 </div>
 <div id="featured">
 <h2 id="featuredWorkText">Featured Work</h2>
-<div class="projects">
-<div class="projectPixel">
-<img src="360/pixelArt.png" alt="pixel Art Maker Image">
+<div class="projects rows">
+<div class="projectPixel col-md-4">
+<img src="360/pixelArt.png" class="img-fluid" alt="pixel Art Maker Image">
 <h3 class="projectName">Pixel Art Maker</h3>
 <a href="https://codepen.io/ckbhatia/project/editor/XWMgkQ" target="_blank">https://codepen.io/ckbh...</a>
 </div>
-<div class="projectAnimal">
-<img src="360/animalTradingCard.jpg" alt="animal trading card Image">
+<div class="projectAnimal col-md-4">
+<img src="360/animalTradingCard.jpg" class="img-fluid" alt="animal trading card Image">
 <h3 class="projectName">Animal Trading Card</h3>
 <a href="https://codepen.io/ckbhatia/pen/zWbVwE" target="_blank">https://codepen.io/ckbha..</a>
 </div>
-<div class="projectJeevan">
-<img src="360/jeevanRakht.jpg" alt="animal trading card Image">
+<div class="projectJeevan col-md-4">
+<img src="360/jeevanRakht.jpg" class="img-fluid" alt="animal trading card Image">
 <h3 class="projectName">Jeevan Rakht App</h3>
 <a href="https://github.com/UdacityFrontEndScholarship/jeevan-rakht" target="_blank">https://github.com/Udacity..</a>
 </div>
 </div>
 </div>
 </section>
-<footer id="footer"><p>&copy Chetan Kumar's Portfolio</p>
+<footer id="footer"><p>&copy This portfolio is part of Official Udacity Project</p>
 </footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
